@@ -24,4 +24,4 @@ The email encryption and code/blog signing key are linked at the page footer. [H
 Timestamps
 ==========
 This repository's tags are also timestamped using the great {% include icon-github.html username="opentimestamps" %}/ [opentimestamps-client](https://github.com/opentimestamps/opentimestamps-client)
-To learn more about the rationale behind using this timestamps I highly suggest that you read [Peter Todd's blog post](https://petertodd.org/2016/opentimestamps-git-integration).
+To learn more about the rationale behind using this timestamps I highly suggest that you read [Peter Todd's blog posts](https://petertodd.org/2016/opentimestamps-announcement) especially the one [focused on Git](https://petertodd.org/2016/opentimestamps-git-integration).
