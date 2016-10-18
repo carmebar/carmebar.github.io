@@ -1,0 +1,15 @@
+title: "Verifiable thoughts"
+email: "carlosmelero@live.com"
+author: "Carlos Melero"
+pgp_email_id: "0x11804CB7D30D321A"
+pgp_email_fp: "B2B4 B9C5 F0A6 BEC8 7EB3  2A2A 1180 4CB7 D30D 321A"
+pgp_code_id: "0x490431E1398756EC"
+pgp_code_fp: "71EB 8B2F FED2 21E5 78BC  3CAC 4904 31E1 3987 56EC"
+description: >
+  Blog with random thoughts that can be verified cryptographically.
+baseurl: ""
+url: "https://carmebar.github.io"
+github_username: "carmebar"
+
+markdown: kramdown
+theme: minima
