@@ -5,6 +5,8 @@ pgp_email_id: "0x11804CB7D30D321A"
 pgp_email_fp: "B2B4 B9C5 F0A6 BEC8 7EB3  2A2A 1180 4CB7 D30D 321A"
 pgp_code_id: "0x490431E1398756EC"
 pgp_code_fp: "71EB 8B2F FED2 21E5 78BC  3CAC 4904 31E1 3987 56EC"
+pgp_master_id: "0x376221C7FB620C0A"
+pgp_master_fp: "572D 538F 55E2 991D 1F3E  0EE4 3762 21C7 FB62 0C0A"
 description: >
   Blog with random thoughts that can be verified cryptographically.
 baseurl: ""
