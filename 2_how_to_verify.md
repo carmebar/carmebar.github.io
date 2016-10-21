@@ -107,7 +107,7 @@ Once you've checked that the fingerprint matches (ideally from multiple independ
 ## Verifying commits
 
 Now that the keys are imported into your keyring git is able to use gpg to check the validity of the singatures.
-After you've download the repository you just need to select the commit you want to verify (p.e using `git log`) and run:
+After downloading the repository you just need to select the commit you want to verify (p.e using `git log`) and run:
 
     $ git verify-commit $commit-sha1
     gpg: Signature made Tue 18 Oct 2016 21:59:21 CEST
