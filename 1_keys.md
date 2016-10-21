@@ -3,8 +3,7 @@ layout: page
 title: Keys
 permalink: /keys/
 ---
-Key hierarchy
-=============
+## Key hierarchy
     $ gpg -K --fingerprint 0x376221C7FB620C0A
 
     sec#  rsa4096/0x376221C7FB620C0A 2016-10-13 [C] [expires: 2018-10-13]
@@ -32,7 +31,7 @@ I have it backed up in a microSD card somewhere safe.
 
 You can also tell that I don't have access to the private keys of my signing and encryption subkeys. They're stored on a smartcard.
 
-Timestamps
-==========
+## Timestamps
+
 This repository's tags are also timestamped using the great {% include icon-github.html username="opentimestamps" %}/ [opentimestamps-client](https://github.com/opentimestamps/opentimestamps-client)
 To learn more about the rationale behind using this timestamps I highly suggest that you read [Peter Todd's blog posts](https://petertodd.org/2016/opentimestamps-announcement) especially the one [focused on Git](https://petertodd.org/2016/opentimestamps-git-integration).
