@@ -5,7 +5,6 @@ permalink: /keys/
 ---
 Key hierarchy
 =============
-<!-- TODO: Explain key hierarchy and the big K-->
     $ gpg -K --fingerprint 0x376221C7FB620C0A
 
     sec#  rsa4096/0x376221C7FB620C0A 2016-10-13 [C] [expires: 2018-10-13]
@@ -20,6 +19,18 @@ Key hierarchy
           Card serial no. = 0005 000041EC
 
 The email encryption and code/blog signing key are linked at the page footer. [Here's the master public key](carlosmelero-master.asc)
+
+As you can see gpg is called with the `-K` argument which is an alias to `--list-secret-keys`:
+
+    --list-secret-keys
+       -K     List all keys from the secret keyrings, or just the ones given on the command line.
+              A # after the letters sec means that the secret key is not usable  
+              (for  example,  if  it  was  created  via --export-secret-subkeys).  See also --list-keys.
+
+Since the master key is marked with the `#` you can tell I don't have the private key in this machine.
+I have it backed up in a microSD card somewhere safe.
+
+You can also tell that I don't have access to the private keys of my signing and encryption keys. They're stored on a smartcard.
 
 Timestamps
 ==========
