@@ -18,7 +18,7 @@ Key hierarchy
           Key fingerprint = B2B4 B9C5 F0A6 BEC8 7EB3  2A2A 1180 4CB7 D30D 321A
           Card serial no. = 0005 000041EC
 
-The email encryption and code/blog signing key are linked at the page footer. [Here's the master public key](carlosmelero-master.asc)
+[Here's the master public key with its subkeys](carlosmelero-key.asc)
 
 As you can see gpg is called with the `-K` argument which is an alias to `--list-secret-keys`:
 
@@ -30,7 +30,7 @@ As you can see gpg is called with the `-K` argument which is an alias to `--list
 Since the master key is marked with the `#` you can tell I don't have the private key in this machine.
 I have it backed up in a microSD card somewhere safe.
 
-You can also tell that I don't have access to the private keys of my signing and encryption keys. They're stored on a smartcard.
+You can also tell that I don't have access to the private keys of my signing and encryption subkeys. They're stored on a smartcard.
 
 Timestamps
 ==========

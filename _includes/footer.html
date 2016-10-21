@@ -11,7 +11,7 @@
               </li>
               {% if site.pgp_email_id %}
                 <li>
-                  {% include icon-pgp.html pgp_desc=site.pgp_email_fp pgp_filename="carlosmelero-email.asc" pgp_id=site.pgp_email_id %}
+                  {% include icon-pgp.html pgp_desc=site.pgp_email_fp pgp_filename="carlosmelero-key.asc" pgp_id=site.pgp_email_id %}
                 </li>
               {% endif %}
             {% endif %}
@@ -27,7 +27,7 @@
           {% endif %}
           {% if site.pgp_code_id %}
             <li>
-              {% include icon-pgp.html pgp_desc=site.pgp_code_fp pgp_filename="carlosmelero-sign.asc" pgp_id=site.pgp_code_id %}
+              {% include icon-pgp.html pgp_desc=site.pgp_code_fp pgp_filename="carlosmelero-key.asc" pgp_id=site.pgp_code_id %}
             </li>
           {% endif %}
         </ul>
