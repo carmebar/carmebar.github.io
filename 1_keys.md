@@ -30,8 +30,3 @@ Since the master key is marked with the `#` you can tell I don't have the privat
 I have it backed up in a microSD card somewhere safe.
 
 You can also tell that I don't have access to the private keys of my signing and encryption subkeys. They're stored on a smartcard.
-
-## Timestamps
-
-This repository's tags are also timestamped using the great {% include icon-github.html username="opentimestamps" %}/ [opentimestamps-client](https://github.com/opentimestamps/opentimestamps-client)
-To learn more about the rationale behind using this timestamps I highly suggest that you read [Peter Todd's blog posts](https://petertodd.org/2016/opentimestamps-announcement) especially the one [focused on Git](https://petertodd.org/2016/opentimestamps-git-integration).
