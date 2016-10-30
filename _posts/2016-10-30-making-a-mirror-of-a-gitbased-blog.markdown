@@ -81,7 +81,7 @@ check the tag that covers it for a valid signature.
 last=$(git rev-parse --verify HEAD)
 
 #Get tag that includes it
-tag=$(git describe --contains "$last")
+tag=$(git tag --contains "$last" | head -1)
 
 #Try to verify commit
 if ! git verify-commit "$last"; then
