@@ -49,7 +49,6 @@ Here's the [Caddyfile](https://caddyserver.com/docs/caddyfile):
 
     domain.com {
       gzip
-      log /dev/null
       root blog/_site
       git https://github.com/carmebar/carmebar.github.io.git ../ {
         then bash -c ../verify_and_build.sh
